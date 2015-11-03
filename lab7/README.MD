@@ -12,3 +12,17 @@ for (int i=1; i<=20; i++)
 ```
 Your program output will look as follows:
 1234567891011121314151617181920
+
+###Exercise 5
+Change your program from week6b.asm so it prints the numbers like so:
+
+1
+2
+3
+.
+.
+.
+20
+
+[ A loop must be used to print the numbers ].
+
