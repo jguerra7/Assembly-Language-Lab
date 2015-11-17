@@ -1,5 +1,5 @@
 ; Author: MINGJIE SHAO
-; Student ID: C00188468
+; Student: C00188468
 ; Date: 17/11/2015
 ; Description: Write a program that will
 ;             -Read in a number(make sure you call indec to do this)
@@ -22,25 +22,25 @@ title WEEK91.ASM
     mov ds, ax
     extrn indec: proc
 
-    call indec
+    call indec  ; Input a number
     cmp ax, 100
+    mov ah, 09h
     ja lt100
     jb gt100
     je eq100
     jmp finish
 
 gt100:
-    mov ah, 09h
     mov dx, offset string1
     int 21h
     jmp finish
+
 lt100:
-    mov ah, 09h
     mov dx, offset string2
     int 21h
     jmp finish
+
 eq100:
-    mov ah, 09h
     mov dx, offset string3
     int 21h
     jmp finish
