@@ -1,4 +1,5 @@
 ; Author: MINGJIE SHAO
+; Student ID: C00188468
 ; Date: 17/11/2015
 ; Description: Write a program that will
 ;             -Read in a number(make sure you call indec to do this)
