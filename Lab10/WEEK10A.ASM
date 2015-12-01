@@ -2,8 +2,8 @@
 ; Student ID: C00188468
 ; Date: 24/11/2015
 ; Description: Write a program that will keep reading in a single     
-               character at a time. – Your loop will keep doing
-               this until the user enters the charcter - lowercase q.
+;              character at a time. – Your loop will keep doing
+;              this until the user enters the charcter - lowercase q.
 
 title WEEK10A.ASM
 .model small
