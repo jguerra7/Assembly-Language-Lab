@@ -2,7 +2,7 @@
 ; Student ID: C00188468
 ; Date: 24/11/2015
 ; Description: Write a program that  reads a character from the user.
-               If the character is UPPERCASE print it out in lowercase
+;              If the character is UPPERCASE print it out in lowercase
 
 title WEEK10.ASM
 .model small
