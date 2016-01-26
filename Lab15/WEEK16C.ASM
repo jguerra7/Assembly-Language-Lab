@@ -24,6 +24,7 @@ printchar:
     mov dl, 2Ah
     int 21h       ; print out '*'
     loop printchar
+
     sub bx, 1
     mov cx, bx
     mov dl, 0ah
