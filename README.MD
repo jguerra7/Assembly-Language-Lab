@@ -34,24 +34,25 @@ E.g. user keys in 3
 
 Program prints out
 
-/*
+**
 
-/**
+***
 
-/***
+****
 
 E.g. user keys in 5
 
 Program prints out
-/*
 
-/**
+**
 
-/***
+***
 
-/****
+****
 
-/*****
+*****
+
+******
 
 Modify your program from last week so it uses the loop instruction to perform the inner and outer loops.
 
