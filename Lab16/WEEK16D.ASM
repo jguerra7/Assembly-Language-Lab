@@ -22,7 +22,6 @@ indata: mov 	ah, 9
 	mov	dx, bx
 	int 21h                 ; output command1 string
         mov     ah, 01h
-        ;call    indec           ; Read in an integer
         int     21h
         mov     charlist[si],al      ; store the inputted number in the array
         add     si, 1                       ; update index to next element
@@ -37,7 +36,6 @@ indata: mov 	ah, 9
 	int 21h                 ; output linefeed
         mov     si, 0           ; initialise the si pointer
 next:   mov     dl,charlist[si]  ; put next integer in the array into ax
-        ;call    outdec          ; output the integer
 	mov	ah, 2
         int     21h
 	mov 	dl, ' '
